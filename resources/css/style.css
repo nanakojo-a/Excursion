@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+div .content{
+    width: 80%;
+}
+
+#topText, #middleText, #midSub{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Verdana;
+}
+
+#topText{
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.content a {
+    display: block;
+    color: aquamarine;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#middleText{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#midSub{
+    font-size: 21px;
+    color: gray;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#copyright{
+    color: gray;
+    text-align: right;
+}
